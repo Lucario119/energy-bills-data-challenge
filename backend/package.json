@@ -1,0 +1,35 @@
+{
+  "name": "energy-bills-test-backend",
+  "version": "1.0.0",
+  "description": "Backend service for extracting and managing energy bill data",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "docker-up": "docker-compose up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.21",
+    "@types/form-data": "^2.5.0",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.12.12",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/sequelize": "^4.28.20",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
