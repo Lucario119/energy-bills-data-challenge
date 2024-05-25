@@ -1,0 +1,23 @@
+# render.yaml
+services:
+  - type: web
+    name: backend
+    env: docker
+    plan: free
+    repo: https://github.com/Lucario119/energy-bills-data-challenge
+    buildCommand: "cd backend && npm install"
+    startCommand: "cd backend && npm run start"
+    branch: master
+    envVars:
+      envVars:
+      - key: DATABASE_URL
+        value: postgres://postgres:password@postgres:5432/energy_bills
+databases:
+  - name: postgres
+    plan: free
+    postgres:
+      version: 13
+      settings:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: password
+        POSTGRES_NAME: energy_bills
