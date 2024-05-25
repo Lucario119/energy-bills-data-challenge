@@ -4,7 +4,7 @@
   "description": "Backend service for extracting and managing energy bill data",
   "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "dev": "ts-node-dev src/server.ts",
     "build": "tsc",
     "docker-up": "docker-compose up",
