@@ -19,7 +19,7 @@ afterAll(async () => {
 
 describe('Files API', () => {
   it('should upload files', async () => {
-    const faturasFolderPath = path.join(__dirname, '../../../Faturas');
+    const faturasFolderPath = path.join(__dirname, '../../Faturas');
     if (await File.count() === 0) {
       await uploadFilesFromFolder(faturasFolderPath)
     }

@@ -1,4 +1,3 @@
-// src/models/file.ts
 import { DataTypes, Model, Optional } from 'sequelize';
 import sequelize from '../config/database';
 import { FileAttributes } from '../src/@types/FileAttributes';

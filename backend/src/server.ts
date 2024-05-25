@@ -32,7 +32,7 @@ const startServer = async () => {
     });
 
     const tablesCount = await checkTablesAreEmpty();
-    const faturasFolderPath = path.join(__dirname, '../../Faturas');
+    const faturasFolderPath = path.join(__dirname, '../Faturas');
   
     if (tablesCount.billsCount === 0) {
       await extractDataFromPDFsInFolder(faturasFolderPath)
