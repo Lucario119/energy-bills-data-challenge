@@ -1,6 +1,6 @@
 # Lumi Fullstack Challenge - Project Overview
 
-This is my Lumi fullstack challenge, that is an application that the user can see the data from a folder called Faturas inside backend filled with energy bills in charts and download the bill files if want to.
+This is my Lumi fullstack Challenge evaluation, that´s an application that the user can see the data scraped from a folder, called Faturas inside backend directory filled with energy bills, in charts format and download the bills files if want to.
 
 ## Getting Started
 
