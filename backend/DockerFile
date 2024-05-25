@@ -1,9 +1,0 @@
-# Dockerfile
-FROM postgres:latest
-
-ENV DB_USER=postgres
-ENV DB_PASSWORD=password
-ENV DB_NAME=energy_bills
-ENV DB_HOST=localhost
-
-EXPOSE 5432
