@@ -9,7 +9,7 @@ export default function Header() {
   const [openMenu, setOpenMenu] = useState(false)
   return (
   <>
-      <div className="h-[4.5rem] text-white w-screen bg-[#5b9406] flex justify-between px-16 items-center">
+      <div className="h-[4.5rem] text-white w-screen bg-[#5b9406] flex justify-between md:px-16 px-10 items-center">
         <h1 className="text-3xl">Energy Bills</h1>
         <ul className="hidden md:flex gap-10 font-bold">
           <li>

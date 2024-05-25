@@ -83,8 +83,8 @@ export default function HomeContent() {
 		{selectedClientNumber && billsData?.filteredResult.length! === 0 && (
 			<h1 className='text-[#5b9406] text-2xl font-semibold'>Dados não encontrados</h1>
 		)}
-		{selectedClientNumber && isLoadingData && (
-			<h1 className='text-[#5b9406] text-2xl font-semibold'>Carregando dados de faturas...</h1>
+		{isLoadingData && (
+			<h1 className='text-[#5b9406] mt-32 text-2xl font-semibold'>Carregando dados de faturas...</h1>
 		)}
 	  </section>
 	</main>

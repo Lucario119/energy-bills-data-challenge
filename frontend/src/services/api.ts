@@ -1,7 +1,7 @@
 import { BillData } from "@/types/Bills";
 import axios from "axios";
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://energy-bills-data-challenge.onrender.com'
 
 class ApiService {
 
