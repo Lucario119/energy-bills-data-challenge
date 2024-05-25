@@ -9,7 +9,6 @@ services:
     startCommand: "cd backend && npm run start"
     branch: master
     envVars:
-      envVars:
       - key: DATABASE_URL
         value: postgres://postgres:password@postgres:5432/energy_bills
 databases:
